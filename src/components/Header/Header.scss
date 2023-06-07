@@ -1,0 +1,26 @@
+.header{
+    position: sticky;
+    top: 0;
+    background: #161a1d;
+    width: 100%;
+    padding: 1rem;
+    z-index: 9;
+    color:#fff;
+
+    ul{
+        margin: 0;
+        li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            span{
+                width: 27px;
+                height: 27px;
+                padding: 5px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
